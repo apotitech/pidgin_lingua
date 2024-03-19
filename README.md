@@ -1,14 +1,14 @@
 # Lingua
-English to Pidgin English(Cameroon) Sequence-to-Sequence Translator Model
+English to Pidgin English Sequence-to-Sequence Translator Model
 
 ## Overview
 
-Lingua is an open-source project that focuses on building a sequence-to-sequence translator model using transformers to translate text from English to Pidgin English(Cameroon). Cameroon Pidgin English is a widely spoken creole language in Cameroon, making this project a valuable resource for linguistic diversity.
+Lingua is an open-source project that focuses on building a sequence-to-sequence translator model using transformers to translate text from English to Pidgin English. Pidgin English is a widely spoken creole language in Cameroon 🇨🇲 and Nigeria 🇳🇬, making this project a valuable resource for linguistic diversity.
 
 ## Features
 
 - **Sequence-to-Sequence Learning:** Implements sequence-to-sequence learning for translation tasks, allowing for more context-aware and accurate translations.
-- **Cameroon Pidgin English Support:** Specifically designed for translating English text into Cameroon Pidgin English, catering to the linguistic needs of the Cameroon community.
+- **Pidgin English Support:** Specifically designed for translating English text into Pidgin English, catering to the linguistic needs of the Cameroonian and Nigerian community.
 - **Open Source:** The entire project is open-source, allowing collaboration and contributions from the community to improve and expand the translation capabilities.
 
 ## Getting Started
@@ -24,7 +24,7 @@ Lingua is an open-source project that focuses on building a sequence-to-sequence
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/FotieMConstant/lingua.git
+git clone https://github.com/apotitech/pidgin_lingua.git
 cd lingua
 ```
 
@@ -40,11 +40,11 @@ pip install -r requirements.txt
 python translate.py --input_text "Hello, how are you?" --output_language pidgin
 ```
 
-This is just a basic example; make sure to explore the options available in the script for more advanced usage.
+This is really just a basic example. Please make sure to explore the options available in the script for more advanced usage.
 
 ## Dataset
 
-The effectiveness of Lingua relies heavily on the quality and diversity of the dataset. As the project progresses, we aim to collect and curate a comprehensive dataset of English-Cameroon Pidgin English pairs. Contributions to the dataset are highly encouraged, and details on how to contribute will be provided in the `dataset` directory.
+The effectiveness of Pidgin_Lingua relies heavily on the quality and diversity of the dataset. As the project progresses, we aim to collect and curate a comprehensive dataset of 🇨🇲 and 🇳🇬 Pidgin English pairs. Contributions to the dataset are highly encouraged, and details on how to contribute will be provided in the `dataset` directory.
 
 ## Contributing
 
